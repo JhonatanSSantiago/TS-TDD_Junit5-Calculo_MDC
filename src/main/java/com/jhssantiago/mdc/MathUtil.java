@@ -1,5 +1,7 @@
 package com.jhssantiago.mdc;
 
+import java.util.Objects;
+
 /**
  *
  * @author jhons
@@ -23,9 +25,19 @@ public class MathUtil {
             return Math.abs(a);
         }
         
-        if(a % b != 0){ //P5
-            return 1;
+        return mdc(a - b, b);
+    }
+    
+    public static int mdc(int ...valores){
+        Objects.requireNonNull(valores, "O valor não pode ser nulo");
+        if(valores.length == 0){
+            throw new IllegalArgumentException("Indique pelo menos 1 número para calcular o mdc");
         }
-        return -1;
+        
+        int a = valores[0];
+        for (int b : valores) {
+            a = mdc(a, b);
+        }
+            return a;
     }
 }

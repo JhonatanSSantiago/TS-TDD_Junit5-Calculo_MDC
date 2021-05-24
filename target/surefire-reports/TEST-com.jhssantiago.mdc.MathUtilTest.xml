@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jhssantiago.mdc.MathUtilTest" time="0.956" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jhssantiago.mdc.MathUtilTest" time="0.749" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\jhons\AppData\Local\Temp\surefire5702713800232286868\surefirebooter16188596810434338090.jar C:\Users\jhons\AppData\Local\Temp\surefire5702713800232286868 2021-05-22T11-57-34_411-jvmRun1 surefire16087341071450788536tmp surefire_06840874233097146216tmp"/>
+    <property name="sun.java.command" value="C:\Users\jhons\AppData\Local\Temp\surefire6271527139537790399\surefirebooter5109679664635375644.jar C:\Users\jhons\AppData\Local\Temp\surefire6271527139537790399 2021-05-24T15-30-32_316-jvmRun1 surefire1350075851989454658tmp surefire_014470038274347916479tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.jhssantiago.mdc.MathUtilTest"/>
     <property name="surefire.test.class.path" value="C:\Users\jhons\Downloads\TDS-TDD-JUNIT-MDC\target\test-classes;C:\Users\jhons\Downloads\TDS-TDD-JUNIT-MDC\target\classes;C:\Users\jhons\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\jhons\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\jhons\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jhons\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jhons\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\jhons\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\jhons\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\jhons\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\jhons\AppData\Local\Temp\surefire5702713800232286868\surefirebooter16188596810434338090.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jhons\AppData\Local\Temp\surefire6271527139537790399\surefirebooter5109679664635375644.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
@@ -62,17 +62,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testMdcP5" classname="com.jhssantiago.mdc.MathUtilTest" time="0.562"/>
-  <testcase name="testMdcP6" classname="com.jhssantiago.mdc.MathUtilTest" time="0.021"/>
-  <testcase name="testMdcAParP1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.015"/>
-  <testcase name="testMdcMParP4" classname="com.jhssantiago.mdc.MathUtilTest" time="0.01"/>
-  <testcase name="testMdcP7ANegativo" classname="com.jhssantiago.mdc.MathUtilTest" time="0.019"/>
-  <testcase name="testeMdcParesP2" classname="com.jhssantiago.mdc.MathUtilTest" time="0.016"/>
+  <testcase name="testMdcP5" classname="com.jhssantiago.mdc.MathUtilTest" time="0.391"/>
+  <testcase name="testMdcP6" classname="com.jhssantiago.mdc.MathUtilTest" time="0.018"/>
+  <testcase name="testMdcAParP1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.01"/>
+  <testcase name="testMdcMParP4" classname="com.jhssantiago.mdc.MathUtilTest" time="0.011"/>
+  <testcase name="testMdcP7ANegativo" classname="com.jhssantiago.mdc.MathUtilTest" time="0.018"/>
+  <testcase name="testeMdcGeralIndivisiveis" classname="com.jhssantiago.mdc.MathUtilTest" time="0.011"/>
+  <testcase name="testeMdcParesP2" classname="com.jhssantiago.mdc.MathUtilTest" time="0.012"/>
   <testcase name="testMdcP7TudoNegativo" classname="com.jhssantiago.mdc.MathUtilTest" time="0.011"/>
-  <testcase name="testMdcMImparP4" classname="com.jhssantiago.mdc.MathUtilTest" time="0.012"/>
-  <testcase name="testMdcAImparP1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.007"/>
-  <testcase name="testMdcP5Resultado1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.008"/>
-  <testcase name="testeMdcAPositivoP3" classname="com.jhssantiago.mdc.MathUtilTest" time="0.007"/>
-  <testcase name="testMdcANegativoP3" classname="com.jhssantiago.mdc.MathUtilTest" time="0.007"/>
-  <testcase name="testMdcP6Negativo" classname="com.jhssantiago.mdc.MathUtilTest" time="0.006"/>
+  <testcase name="testMdcMImparP4" classname="com.jhssantiago.mdc.MathUtilTest" time="0.008"/>
+  <testcase name="testMdcAImparP1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.011"/>
+  <testcase name="testMdcP5Resultado1" classname="com.jhssantiago.mdc.MathUtilTest" time="0.01"/>
+  <testcase name="testeMdcAPositivoP3" classname="com.jhssantiago.mdc.MathUtilTest" time="0"/>
+  <testcase name="testMdcANegativoP3" classname="com.jhssantiago.mdc.MathUtilTest" time="0"/>
+  <testcase name="testMdcP6Negativo" classname="com.jhssantiago.mdc.MathUtilTest" time="0.01"/>
 </testsuite>
